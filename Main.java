@@ -14,7 +14,7 @@ public class Main{
         System.out.println("4. Display Assignments");
 
         Scanner input = new Scanner(System.in);
-        int choice = input.nextInt();
+        int choice = Integer.parseInt(input.nextLine());
 
         if(choice == 1){
             System.out.print("\nEnter assignment name: ");
